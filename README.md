@@ -1,27 +1,38 @@
-# InventoryWeb
+# 🌐 Inventory Web - Angular 18
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.20.
+## ✅ Requisitos
 
-## Development server
+- [Node.js] (v20.13.1) preferiblemente esta versión para Angular 18  
+- [Angular CLI 18](version 18.2.20i)
+- [Git]
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## ⚙️ Ejecución del Proyecto
+### 1. Asegurarte de tener Angular 18 instalado
+npm install -g @angular/cli@18   
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 2. Instalar dependencias
+npm install
 
-## Build
+### 3. Configurar Variables de Entorno
+- Edita el archivo src/environments/environment.ts
+- Editar apiProductsUrl y apiTransactionsUrl por las URLs que se obtienen de las APIs al ejecutar el proyecto Backend
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 4. Ejecutar
 
-## Running unit tests
+- Ejecutar en el terminal `ng serve` luego Ir al URL `http://localhost:4200/`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Productos
+![image](https://github.com/user-attachments/assets/e9761d23-a14f-474d-96d7-80251fd0ecdd)
 
-## Running end-to-end tests
+Formulario de productos 
+![image](https://github.com/user-attachments/assets/897662de-618f-4159-a0de-6e22db9302b3)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+Transacciones
+![image](https://github.com/user-attachments/assets/5ac68a1e-221b-4053-b2ba-94ef145cdca7)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Formulario de transacciones
+![image](https://github.com/user-attachments/assets/3c914435-ba16-49aa-96ee-f139dbfb302d)
+
+
